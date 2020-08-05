@@ -1,0 +1,131 @@
+.register-page .policy-label {
+  padding-left: 15px;
+}
+
+.register-page .terms-label {
+  padding-left: 15px;
+}
+
+.register-page .teacher-validate-text {
+  color: red;
+  visibility: hidden;
+  padding-left: 15px;
+}
+
+.register-page #g-recaptcha {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.register-page .responsible-text {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .default-panel {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .panel-input-field {
+    display: block;
+    width: 100%;
+  }
+}
+
+.register-page .register-type {
+  padding: 10px 25px 10px 25px;
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .register-type {
+    padding: 10px 0 10px 0;
+  }
+}
+
+.register-page .register-type .register-tab {
+  cursor: pointer;
+  display: inline-block;
+  width: 46%;
+  padding: 5px;
+  text-align: center;
+  transition: border-bottom-color 0.2s ease;
+  border-bottom: 1px solid white;
+}
+
+.register-page .register-type .register-tab.active {
+  color: black;
+  border-bottom: 1px solid #26a69a;
+}
+
+.register-page .register-type .register-tab:first-child {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .register-type .register-tab:first-child {
+    margin: unset;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .register-type .register-tab {
+    margin: unset;
+  }
+}
+
+.register-page .teacher-information {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .panel-footer {
+    margin: 0 -20px;
+  }
+}
+
+.register-page .panel-footer .create-account-btn {
+  float: right;
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .panel-footer .create-account-btn {
+    float: unset;
+  }
+}
+
+.register-page .panel-footer .panel-row {
+  text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .panel-footer .panel-row {
+    text-align: unset;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.register-page .panel-text-input {
+  border: none;
+  border-bottom: 1px solid #2176bd;
+  width: 100%;
+}
+
+.register-page .panel-text-input:focus {
+  outline: none;
+}
+
+.register-page .panel-label {
+  font-size: unset;
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .register-page .panel-label {
+    width: 100%;
+  }
+}
+

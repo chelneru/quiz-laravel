@@ -1,0 +1,48 @@
+.dropdown-content li {
+  transition: background-color 0.3s;
+}
+
+.dropdown-content li a,
+.dropdown-content li span {
+  color: black;
+}
+
+#dismiss-participant-modal #dismiss_participant_form {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#dismiss-participant-modal .rows-container {
+  padding: 20px 0;
+}
+
+#dismiss-participant-modal .rows-container .class-row {
+  padding: 10px;
+}
+
+#dismiss-participant-modal .modal-close {
+  padding: 0 16px;
+}
+
+.participants-page .participants-table thead th {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.participants-page .participants-table thead th .sort-group i {
+  display: none;
+}
+
+.participants-page .participants-table thead th .sort-group i.selected {
+  display: block;
+}
+
+.participants-page .class-filter-field {
+  width: 280px !important;
+}
+
+.participants-page .autocomplete-participant .highlight {
+  font-weight: bold;
+}
+

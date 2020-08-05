@@ -1,0 +1,6 @@
+[submodule "laradock"]
+	path = laradock
+	url = https://github.com/Laradock/laradock.git
+[submodule "saga-project.wiki"]
+	path = saga-project.wiki
+	url = C:/WORK/saga-project/saga-project.wiki

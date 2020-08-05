@@ -1,0 +1,28 @@
+.quiz-additional-messages-page {
+  .question-position-row .position-text {
+    padding-top: 10px;
+  }
+
+  .dropdown-content {
+    transition: background-color 0.5s ease;
+
+    li > a,
+    li > span {
+      color: black !important;
+    }
+  }
+  .ql-editor {
+    height: 200px;
+  }
+  .existing-editor-content {
+    display: none;
+  }
+
+  .save-additional-messages-btn {
+    min-width: 140px;
+  }
+  .panel-footer {
+    padding-top: 30px;
+    text-align: right;
+  }
+}

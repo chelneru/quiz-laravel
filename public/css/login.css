@@ -1,0 +1,118 @@
+.login-page .login-panel {
+  margin-top: 200px;
+  background-color: white;
+  box-shadow: 1px 2px 7px 0 grey;
+}
+
+.login-page .card-body .panel-row {
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .card-body .panel-row {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .card-body .panel-row .panel-input-field {
+    width: 100%;
+  }
+}
+
+.login-page .card-body .panel-label {
+  flex: 2;
+  margin-right: 140px;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .card-body .panel-label {
+    display: block;
+    width: 100%;
+    margin-right: unset;
+    padding: unset;
+  }
+}
+
+.login-page .default-panel {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .default-panel {
+    width: unset;
+    margin: 40px auto;
+  }
+}
+
+.login-page .panel-checkbox-field {
+  padding-left: 314px;
+}
+
+.login-page .panel-footer {
+  padding-top: 20px;
+}
+
+.login-page .panel-footer .panel-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .panel-footer .panel-row {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .panel-footer .panel-row button {
+    margin-left: unset;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .panel-footer .panel-row .connect-anon {
+    display: contents;
+  }
+}
+
+.login-page .panel-footer .panel-row .btn {
+  width: 100px;
+}
+
+.login-page .forgot-pass-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-page .forgot-pass-row {
+    margin-top: unset;
+  }
+}
+
+.login-page .forgot-pass-row .btn-flat {
+  flex: 1;
+  color: #039be5;
+  margin-left: -15px;
+}
+
+.login-page .forgot-pass-row .form-check {
+  flex: 1;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.login-page .placeholder-btn {
+  visibility: hidden;
+}
+
+.login-page .register-btn {
+  float: left;
+}
+

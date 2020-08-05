@@ -1,0 +1,204 @@
+.quiz-presentation-panel .panel-body .header-row {
+  background-color: #26a69a33;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 10px 20px;
+}
+
+.quiz-presentation-panel .panel-body .header-row .main-question-image img {
+  max-width: 100%;
+}
+
+.quiz-presentation-panel .index-row {
+  margin-bottom: 0;
+}
+
+.quiz-presentation-panel .panel-body-left {
+  width: 682px;
+  margin-bottom: 30px;
+  padding-right: 5px;
+  border-right: 1px solid #e0e0e0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.quiz-presentation-panel .panel-body-left.full {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .quiz-presentation-panel .panel-body-left {
+    display: block;
+    width: unset;
+  }
+}
+
+.quiz-presentation-panel .panel-body-right {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .quiz-presentation-panel .panel-body-right {
+    float: unset;
+    display: block;
+    width: unset;
+  }
+}
+
+.quiz-presentation-panel .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.quiz-presentation-panel .panel-footer {
+  padding-top: 0;
+  height: 30px;
+}
+
+.quiz-presentation-panel .default-panel {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.quiz-presentation-panel .row .question-title {
+  display: block;
+}
+
+.quiz-presentation-panel .row .question-index {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  font-size: 19px;
+}
+
+.quiz-presentation-panel .row .main-question-title {
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.quiz-presentation-panel .row .responses.main-question {
+  float: right;
+  display: inline-block;
+}
+
+.quiz-presentation-panel .row .responses.main-question div {
+  width: 80px;
+  display: inline-block;
+  text-align: right;
+}
+
+.quiz-presentation-panel .headers-row {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.quiz-presentation-panel .headers-row > .answers-header {
+  font-weight: bold;
+}
+
+.quiz-presentation-panel .responses-headers {
+  display: inline-block;
+}
+
+.quiz-presentation-panel .responses-headers div {
+  display: inline-block;
+  min-width: 80px;
+  text-align: right;
+}
+
+.quiz-presentation-panel .responses-headers .answers-header {
+  display: inline-block;
+}
+
+.quiz-presentation-panel .question-choices {
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 768px) {
+  .quiz-presentation-panel .question-choices {
+    width: 100%;
+  }
+}
+
+.quiz-presentation-panel .question-choices .choice-div {
+  padding: 5px 0;
+}
+
+.quiz-presentation-panel .question-choices .choice-div label {
+  display: inline-block;
+}
+
+.quiz-presentation-panel .question-choices .choice-div label span {
+  color: black;
+}
+
+.quiz-presentation-panel .question-choices .choice-div {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .quiz-presentation-panel .question-choices .choice-div .responses div {
+    width: 55px;
+  }
+}
+
+.quiz-presentation-panel .explanations-section {
+  margin-top: 40px;
+}
+
+.quiz-presentation-panel .explanations-section .question-explanation .title {
+  font-weight: bold;
+}
+
+.quiz-presentation-panel .revision-metrics-section {
+  overflow-x: auto;
+  display: inline-block;
+  margin-left: -10px;
+  float: right;
+  max-width: 259px;
+}
+
+.quiz-presentation-panel .revision-metrics-section .choice-div div {
+  text-align: right;
+  height: 36px;
+  min-width: 80px;
+  margin-left: -4px;
+  display: inline-block;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.quiz-presentation-panel .revision-metrics-section .choice-div div:first-child {
+  margin-left: 4px;
+}
+
+.quiz-presentation-panel .revision-metrics-section .responses-headers {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.quiz-presentation-panel .revision-metrics-section > .responses {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  float: unset;
+}
+
+.quiz-presentation-panel .next-question-btn {
+  float: right;
+}
+
+.quiz-presentation-panel .previous-question-btn {
+  float: left;
+}
+
+.quiz-presentation-panel .show-answer-btn {
+  float: right;
+  margin-right: 40px;
+}
+

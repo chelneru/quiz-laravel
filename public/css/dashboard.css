@@ -1,0 +1,98 @@
+.dashboard-page .default-panel {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.dashboard-page .default-panel tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  /* even columns width , fix width of table too*/
+}
+
+.dashboard-page .default-panel thead th:first-child {
+  padding-left: 20px;
+}
+
+.dashboard-page .default-panel tbody {
+  overflow-y: auto;
+  display: block;
+  min-height: 116px;
+}
+
+.dashboard-page .default-panel tbody td:first-child {
+  padding-left: 20px;
+}
+
+.dashboard-page .default-panel tbody td:not(:first-child) {
+  padding-left: 5px;
+}
+
+.dashboard-page .default-panel tbody td:last-child {
+  padding-right: 20px;
+}
+
+.dashboard-page .default-panel .section {
+  padding: 20px 0 20px 20px;
+}
+
+.dashboard-page .default-panel .section .section-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.dashboard-page .default-panel .section .btn {
+  margin-right: 5px;
+}
+
+.dashboard-page .participants-table tbody {
+  height: unset;
+  min-height: unset;
+}
+
+.dashboard-page .classes-panel .section .modal-trigger {
+  float: right;
+}
+
+.dashboard-page .active-list,
+.dashboard-page .inactive-list {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dashboard-page #quiz_presentation .modal-content .modal-buttons .start-quiz-btn {
+  float: right;
+  margin-bottom: 24px;
+}
+
+.dashboard-page #quiz_presentation .ql-editor pre {
+  white-space: normal;
+}
+
+.dashboard-page table .empty-row td {
+  text-align: center;
+}
+
+.dashboard-page .get-quiz-info {
+  cursor: pointer;
+}
+
+.join-class-btn {
+  min-width: 115px;
+}
+
+#teacher-participants-list-modal .modal-content {
+  padding: 0;
+}
+
+#teacher-participants-list-modal .modal-content .users-table td {
+  padding-left: 24px;
+}
+
+.participant-page .classes-table td {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

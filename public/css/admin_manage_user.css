@@ -1,0 +1,30 @@
+.manage-user-page .teacher-information {
+  display: none;
+}
+
+.manage-user-page .panel-footer .create-account-btn {
+  float: right;
+}
+
+.manage-user-page .panel-footer .panel-row {
+  text-align: left;
+}
+
+.manage-user-page .panel-text-input {
+  border: none;
+  border-bottom: 1px solid #2176bd;
+  width: 100%;
+}
+
+.manage-user-page .panel-text-input:focus {
+  outline: none;
+}
+
+.manage-user-page .panel-label {
+  color: black;
+}
+
+.manage-user-page .role-select-div {
+  max-width: 150px;
+}
+

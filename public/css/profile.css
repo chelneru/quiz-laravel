@@ -1,0 +1,146 @@
+.profile-page .panel-header,
+.edit-profile-page .panel-header {
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding-left: 16px;
+}
+
+.profile-page .default-panel,
+.edit-profile-page .default-panel {
+  padding: 20px;
+}
+
+.profile-page .delete-button,
+.edit-profile-page .delete-button {
+  background-color: #bd3b3c !important;
+  border: none;
+  color: white;
+  padding: 7px 17px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profile-page .panel-footer .panel-row,
+.edit-profile-page .panel-footer .panel-row {
+  text-align: left;
+}
+
+.popup-footer {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.popup-footer .popup-button {
+  background-color: #a7a7a7;
+  border: none;
+  color: white;
+  padding: 7px 17px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.edit-profile-page .panel-row {
+  padding: 5px 15px;
+}
+
+.edit-profile-page .delete-row {
+  padding: 20px 15px;
+}
+
+.edit-profile-page .delete-row .panel-label {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.edit-profile-page .panel-footer {
+  padding-top: 20px;
+}
+
+.edit-profile-page .panel-footer .panel-row {
+  padding: 0;
+}
+
+.edit-profile-page .panel-label {
+  margin-right: 0;
+}
+
+.edit-profile-page .save-changes {
+  float: right;
+}
+
+@media (max-width: 500px) {
+  .edit-profile-page .panel-header {
+    margin-bottom: 0;
+  }
+
+  .edit-profile-page .panel-footer {
+    padding-top: 10px;
+  }
+
+  .edit-profile-page .panel-label {
+    width: unset;
+    margin-right: unset;
+  }
+
+  .edit-profile-page .panel-input-field {
+    width: unset;
+    display: block;
+  }
+}
+
+.edit-profile-page .panel-input-field {
+  height: 30px;
+}
+
+.edit-profile-page input {
+  height: 2rem;
+}
+
+.delete-profile-page .panel-footer .panel-row {
+  padding: 0;
+  margin: 0 -5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-profile-page .panel-label {
+  width: unset;
+  margin-right: unset;
+}
+
+.delete-profile-page .popup-panel {
+  height: unset;
+}
+
+.delete-profile-page .delete-account-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-profile-page #delete-account-modal .popup-message {
+  text-align: center;
+}
+
+.delete-profile-page #delete-account-modal .popup-footer {
+  margin-top: 159px;
+}
+
+.delete-profile-page #delete-account-modal .modal-close {
+  padding: 0 16px;
+}
+
+.reset-password-page .panel-footer .footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 760px) {
+  .reset-password-page .panel-label {
+    width: unset;
+  }
+
+  .reset-password-page .panel-input-field {
+    width: 100%;
+  }
+}
+

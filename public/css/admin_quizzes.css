@@ -1,0 +1,65 @@
+.dropdown-content li {
+  transition: background-color 0.3s;
+}
+
+.dropdown-content li a,
+.dropdown-content li span {
+  color: black;
+}
+
+.admin-quizzes-page .quizzes-table thead th {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.admin-quizzes-page .quizzes-table thead th .sort-group i {
+  display: none;
+}
+
+.admin-quizzes-page .quizzes-table thead th .sort-group i.selected {
+  display: block;
+}
+
+.admin-quizzes-page .class-filter-field {
+  width: 280px !important;
+}
+
+.admin-quizzes-page .autocomplete-user {
+  display: inline-block;
+}
+
+.admin-quizzes-page .autocomplete-user .highlight {
+  font-weight: bold;
+}
+
+.admin-quizzes-page .pagination {
+  float: right;
+  display: inline-block;
+}
+
+.admin-quizzes-page .default-panel {
+  padding-bottom: 70px;
+}
+
+.admin-quizzes-page .name-td {
+  width: 350px;
+}
+
+#delete-quiz-modal #delete_quiz_form {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#delete-quiz-modal .rows-container {
+  padding: 20px 0;
+}
+
+#delete-quiz-modal .rows-container .class-row {
+  padding: 10px;
+}
+
+#delete-quiz-modal .modal-close {
+  padding: 0 16px;
+}
+

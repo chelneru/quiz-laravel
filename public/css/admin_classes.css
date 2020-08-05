@@ -1,0 +1,61 @@
+.dropdown-content li {
+  transition: background-color 0.3s;
+}
+
+.dropdown-content li a,
+.dropdown-content li span {
+  color: black;
+}
+
+.admin-classes-page .classes-table thead th {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.admin-classes-page .classes-table thead th .sort-group i {
+  display: none;
+}
+
+.admin-classes-page .classes-table thead th .sort-group i.selected {
+  display: block;
+}
+
+.admin-classes-page .class-filter-field {
+  width: 280px !important;
+}
+
+.admin-classes-page .autocomplete-user {
+  display: inline-block;
+}
+
+.admin-classes-page .autocomplete-user .highlight {
+  font-weight: bold;
+}
+
+.admin-classes-page .pagination {
+  float: right;
+  display: inline-block;
+}
+
+.admin-classes-page .default-panel {
+  padding-bottom: 70px;
+}
+
+#delete-class-modal #delete_class_form {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#delete-class-modal .rows-container {
+  padding: 20px 0;
+}
+
+#delete-class-modal .rows-container .class-row {
+  padding: 10px;
+}
+
+#delete-class-modal .modal-close {
+  padding: 0 16px;
+}
+

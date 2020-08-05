@@ -1,0 +1,120 @@
+.leaderboard-page {
+  .section-title {
+    margin-top: 30px;
+  }
+
+  .general-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 430px) {
+      flex-flow:column wrap;
+
+    }
+
+      .info-categ {
+        display: inline-block;
+        flex: 1;
+
+        .info-value {
+          text-align: center;
+          width: 170px;
+        }
+
+        .info-text {
+          text-align: center;
+          width: 170px;
+        }
+      }
+
+    @media (max-width: 430px) {
+      .info-categ {
+        display: block;
+
+        .info-value {
+          width: 100%;
+        }
+
+        .info-text {
+          width: 100%;
+        }
+      }
+    }
+    }
+
+    #times_chart, #scores_chart {
+      display: inline-block;
+
+      @media (max-width: 560px) {
+        width: 98%;
+      }
+    }
+
+    .time-section {
+      padding: 10px;
+    }
+
+    .table {
+      margin-top: 10px;
+      vertical-align: top;
+      width: 200px;
+      display: inline-block;
+
+      .headers {
+        .table-header {
+          width: 48%;
+          text-align: center;
+          display: inline-block;
+          margin: 0 -2px;
+          border-bottom: 1px solid #26a69a;
+
+          &:first-child {
+            border-right: 1px solid #26a69a;
+          }
+        }
+      }
+
+      .body-rows {
+        .table-row {
+          .table-cell {
+            width: 48%;
+            margin: 0 -2px;
+            text-align: center;
+            display: inline-block;
+
+            &:first-child {
+              border-right: 1px solid #26a69a;
+            }
+          }
+        }
+      }
+    }
+
+    .user-section {
+      display: inline-block;
+      width: 120px;
+      vertical-align: top;
+
+      .user-text {
+        text-align: center;
+      }
+
+      .user-value {
+        text-align: center;
+      }
+    }
+  @media (max-width: 430px) {
+    .user-section {
+      margin-top: 10px;
+      width: 100%;
+
+      .user-text{
+      text-align: left;
+      }
+      .user-value {
+        text-align: left;
+      }
+    }
+  }
+  }

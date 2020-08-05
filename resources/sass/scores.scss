@@ -1,0 +1,95 @@
+.scores-page {
+    .quick-access-panel {
+        position: relative;;
+
+        .quick-access-area {
+            height: 208px;
+            display: block;
+            width: 101%;
+            overflow-y: auto;
+
+            table {
+                tr{
+                    cursor: pointer;
+                    &.selected {
+                        background-color: rgba(242, 242, 242, 0.5);
+                    }
+
+                }
+                td:not(:first-child):not(:last-child) {
+                    width: 240px;
+
+                }
+                td:first-child {
+                    width: 50px;
+                }
+            }
+
+        }
+
+        .prev-query {
+            cursor: pointer;
+            opacity:0;
+            visibility: hidden;
+            transition: visibility 0.3s linear,opacity 0.3s linear;
+        }
+    }
+
+    .scores-table {
+        tbody {
+            tr {
+                .taken-on-td {
+                    width: 180px;
+                }
+
+                td {
+                    &.positive {
+                        color: #4db6ac;
+                    }
+
+                    &.negative {
+                        color: #e57373;
+                    }
+                }
+
+            }
+
+        }
+
+        thead th {
+            cursor:pointer;
+            font-weight: bold;
+            .sort-group i{
+                display: none;
+
+            }
+        }
+    }
+
+    .autocomplete-participant {
+        .highlight {
+            font-weight: bold;
+        }
+    }
+
+    .dropdown-content {
+        transition: background-color 0.5s ease;
+
+        li > a,
+        li > span {
+            color: black !important;
+        }
+    }
+table.highlight tbody {
+    tr[data-type="participant"] {
+        td:first-child {
+            width: 153px;
+        }
+        td:nth-child(2) {
+            width: 153px;
+        }
+    }
+}
+}
+
+

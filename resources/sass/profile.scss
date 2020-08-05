@@ -1,0 +1,154 @@
+.profile-page, .edit-profile-page {
+  .panel-header {
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-left: 16px;
+
+  }
+
+  .default-panel {
+    padding: 20px;
+  }
+
+  .delete-button {
+    background-color: #bd3b3c !important;
+    border: none;
+    color: white;
+    padding: 7px 17px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .panel-footer {
+    .panel-row {
+      text-align: left;
+    }
+  }
+
+}
+
+.popup-footer {
+  text-align: center;
+  margin-top: 200px;
+
+  .popup-button {
+    background-color: #a7a7a7;
+    border: none;
+    color: white;
+    padding: 7px 17px;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+}
+
+.edit-profile-page {
+  .panel-row {
+    padding: 5px 15px;
+  }
+
+  .delete-row {
+
+    padding: 20px 15px;
+
+    .panel-label {
+      vertical-align: middle;
+      width: 100%;
+    }
+  }
+
+  .panel-footer {
+    padding-top: 20px;
+    .panel-row {
+      padding: 0;
+    }
+  }
+  .panel-label {
+    margin-right: 0;
+  }
+  .save-changes {
+    float: right;
+  }
+
+  @media(max-width: 500px) {
+    .panel-header {
+      margin-bottom: 0;
+    }
+    .panel-footer {
+      padding-top: 10px;
+    }
+    .panel-label {
+      width: unset;
+      margin-right: unset;
+    }
+    .panel-input-field {
+      width: unset;
+      display: block;
+
+    }
+  }
+  .panel-input-field{
+    height: 30px;
+  }
+  input {
+    height: 2rem;
+  }
+}
+
+.delete-profile-page {
+  .panel-footer {
+    .panel-row {
+      padding: 0;
+      margin: 0 -5px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .panel-label {
+    width: unset;
+    margin-right: unset;
+  }
+
+  .popup-panel {
+    height: unset;
+  }
+
+  .delete-account-form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #delete-account-modal {
+    .popup-message {
+      text-align: center;
+    }
+
+    .popup-footer {
+      margin-top: 159px;
+    }
+
+    .modal-close {
+      padding: 0 16px;
+    }
+  }
+}
+
+.reset-password-page {
+  .panel-footer {
+   .footer-row {
+     display: flex;
+     justify-content: space-between;
+   }
+  }
+
+  @media (max-width: 760px) {
+.panel-label {
+  width: unset;
+
+}
+.panel-input-field {
+  width: 100%;
+}
+  }
+}

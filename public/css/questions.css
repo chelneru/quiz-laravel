@@ -1,0 +1,38 @@
+.questions-page .action-buttons-space {
+  text-align: right;
+  padding: 20px 0;
+}
+
+.questions-page .answer-row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.questions-page .answer-row input {
+  margin-bottom: 0;
+}
+
+.questions-page .add-new-answer-btn {
+  float: left;
+}
+
+.questions-page .remove-answer-icon {
+  padding-top: 22px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.questions-page .sortable-handle {
+  cursor: pointer;
+}
+
+.questions-page .panel-footer {
+  margin-top: 50px;
+}
+
+.questions-page .dropdown-content li a,
+.questions-page .dropdown-content li span {
+  color: black;
+}
+

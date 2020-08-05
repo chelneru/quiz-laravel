@@ -1,0 +1,65 @@
+.dropdown-content {
+    li {
+        transition: background-color .3s;
+    }
+
+    li a,
+    li span {
+        color: black;
+    }
+
+}
+
+#dismiss-participant-modal {
+
+    #dismiss_participant_form {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .rows-container {
+        padding: 20px 0;
+
+        .class-row {
+            padding: 10px;
+        }
+    }
+
+    .modal-close {
+        padding: 0 16px;
+    }
+}
+
+.participants-page {
+    .participants-table {
+        tr {
+            td.class-td {
+
+            }
+
+        }
+        thead th {
+            cursor:pointer;
+            font-weight: bold;
+            .sort-group i{
+                display: none;
+                &.selected {
+                    display: block;
+                }
+
+            }
+        }
+    }
+
+    .class-filter-field {
+        width: 280px !important;
+    }
+
+
+    .autocomplete-participant {
+        .highlight {
+            font-weight: bold;
+        }
+    }
+}
