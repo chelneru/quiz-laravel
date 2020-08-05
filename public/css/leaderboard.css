@@ -1,0 +1,120 @@
+.leaderboard-page .section-title {
+  margin-top: 30px;
+}
+
+.leaderboard-page .general-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 430px) {
+  .leaderboard-page .general-section {
+    flex-flow: column wrap;
+  }
+}
+
+.leaderboard-page .general-section .info-categ {
+  display: inline-block;
+  flex: 1;
+}
+
+.leaderboard-page .general-section .info-categ .info-value {
+  text-align: center;
+  width: 170px;
+}
+
+.leaderboard-page .general-section .info-categ .info-text {
+  text-align: center;
+  width: 170px;
+}
+
+@media (max-width: 430px) {
+  .leaderboard-page .general-section .info-categ {
+    display: block;
+  }
+
+  .leaderboard-page .general-section .info-categ .info-value {
+    width: 100%;
+  }
+
+  .leaderboard-page .general-section .info-categ .info-text {
+    width: 100%;
+  }
+}
+
+.leaderboard-page #times_chart,
+.leaderboard-page #scores_chart {
+  display: inline-block;
+}
+
+@media (max-width: 560px) {
+  .leaderboard-page #times_chart,
+  .leaderboard-page #scores_chart {
+    width: 98%;
+  }
+}
+
+.leaderboard-page .time-section {
+  padding: 10px;
+}
+
+.leaderboard-page .table {
+  margin-top: 10px;
+  vertical-align: top;
+  width: 200px;
+  display: inline-block;
+}
+
+.leaderboard-page .table .headers .table-header {
+  width: 48%;
+  text-align: center;
+  display: inline-block;
+  margin: 0 -2px;
+  border-bottom: 1px solid #26a69a;
+}
+
+.leaderboard-page .table .headers .table-header:first-child {
+  border-right: 1px solid #26a69a;
+}
+
+.leaderboard-page .table .body-rows .table-row .table-cell {
+  width: 48%;
+  margin: 0 -2px;
+  text-align: center;
+  display: inline-block;
+}
+
+.leaderboard-page .table .body-rows .table-row .table-cell:first-child {
+  border-right: 1px solid #26a69a;
+}
+
+.leaderboard-page .user-section {
+  display: inline-block;
+  width: 120px;
+  vertical-align: top;
+}
+
+.leaderboard-page .user-section .user-text {
+  text-align: center;
+}
+
+.leaderboard-page .user-section .user-value {
+  text-align: center;
+}
+
+@media (max-width: 430px) {
+  .leaderboard-page .user-section {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .leaderboard-page .user-section .user-text {
+    text-align: left;
+  }
+
+  .leaderboard-page .user-section .user-value {
+    text-align: left;
+  }
+}
+

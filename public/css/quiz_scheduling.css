@@ -1,0 +1,99 @@
+.quiz-scheduling-page input::-webkit-outer-spin-button,
+.quiz-scheduling-page input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.quiz-scheduling-page input[type=number] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+.quiz-scheduling-page .participation-input-div {
+  display: inline-block;
+  width: 50px;
+}
+
+.quiz-scheduling-page .participation-input-div input {
+  height: 20px;
+}
+
+.quiz-scheduling-page .schedule-label {
+  display: inline-block;
+  width: 110px;
+}
+
+.quiz-scheduling-page .date-picker-div {
+  display: inline-block;
+}
+
+.quiz-scheduling-page input.datepicker {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+}
+
+.quiz-scheduling-page .datepicker-icon {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.quiz-scheduling-page .picker-label {
+  margin-right: 30px;
+}
+
+.flatpickr-calendar .flatpickr-current-month {
+  bottom: 7px;
+}
+
+.flatpickr-calendar .flatpickr-current-month .numInputWrapper {
+  margin-left: 0;
+}
+
+.flatpickr-calendar .flatpickr-current-month .numInputWrapper input {
+  height: 20px;
+  width: 60%;
+}
+
+.flatpickr-calendar .flatpickr-time .numInputWrapper input {
+  height: 27px;
+}
+
+.flatpickr-calendar .flatpickr-monthDropdown-months {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.flatpickr-months .flatpickr-month {
+  height: 34px;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+  background: #26a599;
+  color: #fff;
+  border-color: #26a599;
+}
+
+.panel-footer {
+  text-align: right;
+}
+

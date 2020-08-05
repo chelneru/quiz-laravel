@@ -1,0 +1,91 @@
+.quiz-scheduling-page {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  }
+
+  input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+  }
+ .participation-input-div {
+   display: inline-block;
+   width: 50px;
+   input {
+     height: 20px;
+
+   }
+ }
+  .schedule-label {
+    display: inline-block;
+    width: 110px;
+  }
+  .date-picker-div {
+    display: inline-block;
+  }
+  input.datepicker {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+  }
+  .datepicker-icon {
+    vertical-align: middle;
+    cursor:pointer;
+  }
+  .picker-label {
+    margin-right: 30px;
+  }
+}
+.flatpickr-calendar {
+  //
+  //  input[type=number] {
+  //    height: 20px;
+  //  }
+  //  input[type=number]::-webkit-inner-spin-button,
+  //  input[type=number]::-webkit-outer-spin-button {
+  //    -webkit-appearance: none !important;
+  //    margin: 0 !important;
+  //  }
+  //  span.flatpickr-day {
+  //    height: 19px;
+  //    line-height: 19px;
+  //  }
+  .flatpickr-current-month {
+    bottom: 7px;
+
+    .numInputWrapper {
+        margin-left: 0;
+
+      input {
+        height: 20px;
+          width: 60%;
+      }
+    }
+  }
+
+  .flatpickr-time {
+    .numInputWrapper {
+      input {
+        height: 27px;
+      }
+    }
+  }
+    .flatpickr-monthDropdown-months {
+        display: inline-block;
+        font-size: 16px;
+    }
+}
+
+.flatpickr-months .flatpickr-month {
+  height: 34px ;
+}
+
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay {
+  background: #26a599;
+  color: #fff;
+  border-color: #26a599;
+}
+.panel-footer {
+  text-align: right;
+}

@@ -1,0 +1,15 @@
+app/Http/Controllers/	
+app/Repositories/
+app/Services/
+app/User.php
+public/Privacy Policy.pdf	
+public/css/
+public/images/
+public/js/	
+public/mix-manifest.json	
+public/publications_files/
+resources/js/
+resources/sass/	
+resources/views/
+routes/web.php
+webpack.mix.js

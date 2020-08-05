@@ -1,0 +1,293 @@
+.classes-page {
+  .dropdown-content {
+    li {
+      transition: background-color .3s;
+    }
+
+    li a,
+    li span {
+      color: black;
+    }
+
+  }
+  .join-class-btn {
+    min-width: 115px;
+  }
+    .classes-table {
+        display: block;
+        width: 100%;
+        thead {
+            display: block;
+            width: 100%;
+            tr {
+                display: block;
+                width: 100%;
+                th.class-th {
+                    width: 89%;
+                    display: inline-block;
+                }
+                th.quiz-th {
+                    width: 10%;
+                    display: inline-block;
+                }
+            }
+        }
+        tbody {
+            display: block;
+            width: 100%;
+            tr{
+                display: block;
+                width: 100%;
+            td.class-td{
+                width: 89%;
+                display: inline-block;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            td.quiz-td{
+                width: 10%;
+                display: inline-block;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            }
+        }
+    }
+}
+
+.invite-participants-page {
+
+  .tabs .tab {
+  }
+
+  .tabs .tab a {
+    cursor: pointer;
+
+    color: rgba(38, 166, 154, 0.7);
+    /*Custom Text Color*/
+  }
+
+  .tabs .tab a:hover {
+    color: #26a69a;
+    /*Custom Color On Hover*/
+  }
+
+  .tabs .tab a:focus.active {
+    color: #26a69a;
+    /*Custom Text Color While Active*/
+    background-color: rgba(38, 166, 154, 0.2);
+    /*Custom Background Color While Active*/
+  }
+
+  .tabs .indicator {
+    background-color: #26a69a;
+    /*Custom Color Of Indicator*/
+  }
+
+  .invite-participants-page {
+    background-color: #26a69a40;
+  }
+
+  .dz-message {
+    border: 1px dashed;
+    padding: 10px;
+  }
+
+  .dz-default {
+    display: none;
+    background-color: white;
+  }
+
+  .code-div {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 44px;
+    padding: 20px;
+  }
+  .code-info-div {
+    text-align: center;
+    padding: 20px;
+  }
+  .panel-body {
+    min-height: 278px;
+  }
+
+  #btnUpload {
+    display: none;
+    float: right;
+  }
+  .participant_row {
+    margin-bottom: 0;
+    .input-field {
+      margin-top: 0;
+    }
+  }
+ .input-field {
+   margin-bottom: 0;
+ }
+  .delete-participant-row{
+    cursor: pointer;
+    visibility: hidden;
+  }
+    .participants_rows_container {
+        padding-top: 15px;
+    }
+}
+
+.class-additional-info-page {
+  .additional-actions-row {
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .class-status-row {
+    text-align: center;
+
+    .class-title {
+      font-weight: bold;
+    }
+  }
+}
+
+#add_existing_quiz_modal {
+
+  .modal-content {
+    background-color: white;
+
+  }
+  .sticky-modal-footer {
+    bottom: 0;
+    position: sticky;
+    background-color: white;
+    padding: 20px 10px;
+    width: 105%;
+    margin-left: -21px;
+    .add-quizzes-btn {
+      min-width: 224px;
+      float: right;
+    }
+  }
+  div.modal-close {
+    padding: 10px 11px 0 16px;
+  }
+  button.modal-close {
+    padding: 0 16px;
+  }
+  .available-quizzes-table {
+    td {
+      padding: 1px;
+    }
+  }
+}
+
+
+
+.class-details-page {
+  .panel-label {
+    vertical-align: top;
+    margin-right: 0;
+  }
+
+  .quizzes-table,
+  .participants-table {
+    display: inline-block;
+    width: 60%;
+      tbody {
+          display: block;
+          tr {
+              display: block;
+              td {
+                  width: 100%;
+                  display: inline-block;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+              }
+          }
+      }
+
+  }
+    .participants-table {
+        tbody tr td.name-td{
+            width: fit-content;
+            max-width: 70%;
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        td.role-td {
+            width: 25%;
+        }
+    }
+
+  .edit-btn {
+    float: right;
+  }
+}
+
+.edit-class-page {
+  .modal-trigger {
+    cursor: pointer;
+  }
+
+  .edit-class-btn {
+    min-width: 140px;
+  }
+  .section{
+    padding-bottom:0;
+    font-weight: bold;
+
+  }
+  .panel-footer {
+    padding-top: 20px;
+  }
+  .participant-row {
+    clear: both;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .quiz-row {
+    clear: both;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  #invite_participants {
+    cursor: pointer;
+  }
+    .modal .modal-footer{
+      text-align: unset;
+    }
+  .modal-close{
+    padding: 7px 7px ;
+  }
+  #modal2 {
+      .btn.modal-close {
+        padding: 0 16px;
+      }
+  }
+}
+
+.create-class-page {
+  .create-class-btn {
+    min-width: 135px;
+  }
+}
+.copy-class-page {
+  .row {
+    margin-bottom: 0;
+  }
+  .section{
+    padding-bottom: 0;
+  }
+  label {
+    display: block;
+  }
+}
+
+#class-delete-confirm-modal {
+    .modal-footer .modal-close {
+        float: left;
+    }
+}

@@ -1,0 +1,249 @@
+.quiz-game-page .panel-body {
+  text-align: center;
+}
+
+.quiz-game-page .invalid-input {
+  border-bottom: 1px solid #F89406 !important;
+}
+
+.quiz-game-page .divider {
+  overflow: unset;
+}
+
+.quiz-game-page .section-header {
+  font-weight: bold;
+}
+
+.quiz-game-page input.quiz-input {
+  display: inline-block;
+  width: 340px;
+}
+
+.quiz-game-page input.group-input {
+  width: 90px;
+  margin-right: 20px;
+}
+
+.quiz-game-page .quiz-status {
+  color: black;
+  font-weight: normal;
+  width: 170px;
+  display: inline-block;
+  text-align: center;
+}
+
+.quiz-game-page .quiz-status.open {
+  font-weight: bold;
+  color: #26a69a;
+}
+
+.quiz-game-page .quiz-status.closed {
+  font-weight: bold;
+  color: #ef5350;
+}
+
+.quiz-game-page .actions-section {
+  width: 220px;
+  display: inline-block;
+  text-align: center;
+  float: right;
+}
+
+.quiz-game-page .actions-section .actions-header {
+  font-weight: bold;
+}
+
+.quiz-game-page .actions-section .btn {
+  margin-bottom: 10px;
+}
+
+.quiz-game-page .no-of-groups {
+  margin-bottom: 10px;
+}
+
+.quiz-game-page .links-subsection {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.quiz-game-page .links-subsection .quiz-link-headers {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.quiz-game-page .links-subsection .quiz-link-headers .group-name-header {
+  text-align: center;
+  display: inline-block;
+  width: 90px;
+  margin-right: 20px;
+}
+
+.quiz-game-page .links-subsection .quiz-link-headers .link-header {
+  text-align: center;
+  display: inline-block;
+  width: 340px;
+}
+
+.quiz-game-page .links-subsection .quiz-link-headers .status-header {
+  width: 170px;
+  text-align: center;
+  display: inline-block;
+}
+
+.quiz-game-page .links-subsection .quiz-link-container {
+  min-height: 170px;
+}
+
+.quiz-game-page .section-footer {
+  height: 20px;
+}
+
+.quiz-game-page .quiz-chart-container {
+  display: inline-block;
+  position: relative;
+  width: 24.4%;
+  height: 100%;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-group-size {
+  margin-top: 10px;
+  line-height: 2;
+  font-size: 1.2vw;
+}
+
+.quiz-game-page .quiz-chart-container .lead-div {
+  height: 60px;
+}
+
+.quiz-game-page .quiz-chart-container .lead-div img {
+  display: none;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.quiz-game-page .quiz-chart-container .lead-div.leading img {
+  display: block;
+}
+
+.quiz-game-page .quiz-chart-container .group-lead-position {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-chart {
+  height: 54%;
+  text-align: center;
+  width: 100%;
+  margin-top: 14%;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-chart .init-column {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-chart .init-column .top-rect {
+  position: relative;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-chart .rev-column {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-chart .rev-column .top-rect {
+  position: relative;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-chart .leading-position {
+  vertical-align: bottom;
+  font-size: 3vw;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-stats {
+  width: 98%;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-stats div {
+  display: inline-block;
+}
+
+.quiz-game-page .quiz-chart-container .quiz-group {
+  text-shadow: -1px -1px 1px #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: bold;
+  margin-bottom: 4%;
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+.quiz-game-page .quiz-chart-container div.chart-diff-div {
+  position: relative;
+  border: 3px solid black;
+  border-top: none;
+  display: block;
+  height: 4%;
+  text-align: center;
+  width: 56%;
+  margin: 0 auto;
+}
+
+.quiz-game-page .quiz-chart-container div.chart-diff-div .chart-diff-text {
+  bottom: -10px;
+  background-color: white;
+  position: absolute;
+  padding: 0 10px;
+  top: 44%;
+  width: 110px;
+  color: grey;
+  font-weight: bold;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  font-size: 1.2vw;
+}
+
+.quiz-game-page .quiz-chart-container .percentages div {
+  display: inline-block;
+  width: 49%;
+  font-size: 2.7vw;
+  font-weight: bold;
+}
+
+.quiz-game-page .quiz-chart-container .secondary-view {
+  color: grey !important;
+  font-size: 1.7vw !important;
+}
+
+.quiz-game-page .quiz-chart-container:not(:last-child) {
+  margin-right: 10px;
+}
+
+.quiz-game-page .groups-count {
+  display: inline-block;
+  width: 40px;
+  margin-top: 0;
+}
+
+.quiz-game-page .select-quiz-count-label {
+  display: inline-block;
+}
+
+.container.run-page {
+  width: unset;
+  max-width: unset;
+}
+
+.run-page .default-panel {
+  box-shadow: none;
+}
+

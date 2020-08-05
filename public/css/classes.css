@@ -1,0 +1,300 @@
+.classes-page .dropdown-content li {
+  transition: background-color 0.3s;
+}
+
+.classes-page .dropdown-content li a,
+.classes-page .dropdown-content li span {
+  color: black;
+}
+
+.classes-page .join-class-btn {
+  min-width: 115px;
+}
+
+.classes-page .classes-table {
+  display: block;
+  width: 100%;
+}
+
+.classes-page .classes-table thead {
+  display: block;
+  width: 100%;
+}
+
+.classes-page .classes-table thead tr {
+  display: block;
+  width: 100%;
+}
+
+.classes-page .classes-table thead tr th.class-th {
+  width: 89%;
+  display: inline-block;
+}
+
+.classes-page .classes-table thead tr th.quiz-th {
+  width: 10%;
+  display: inline-block;
+}
+
+.classes-page .classes-table tbody {
+  display: block;
+  width: 100%;
+}
+
+.classes-page .classes-table tbody tr {
+  display: block;
+  width: 100%;
+}
+
+.classes-page .classes-table tbody tr td.class-td {
+  width: 89%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.classes-page .classes-table tbody tr td.quiz-td {
+  width: 10%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.invite-participants-page .tabs .tab a {
+  cursor: pointer;
+  color: rgba(38, 166, 154, 0.7);
+  /*Custom Text Color*/
+}
+
+.invite-participants-page .tabs .tab a:hover {
+  color: #26a69a;
+  /*Custom Color On Hover*/
+}
+
+.invite-participants-page .tabs .tab a:focus.active {
+  color: #26a69a;
+  /*Custom Text Color While Active*/
+  background-color: rgba(38, 166, 154, 0.2);
+  /*Custom Background Color While Active*/
+}
+
+.invite-participants-page .tabs .indicator {
+  background-color: #26a69a;
+  /*Custom Color Of Indicator*/
+}
+
+.invite-participants-page .invite-participants-page {
+  background-color: #26a69a40;
+}
+
+.invite-participants-page .dz-message {
+  border: 1px dashed;
+  padding: 10px;
+}
+
+.invite-participants-page .dz-default {
+  display: none;
+  background-color: white;
+}
+
+.invite-participants-page .code-div {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 44px;
+  padding: 20px;
+}
+
+.invite-participants-page .code-info-div {
+  text-align: center;
+  padding: 20px;
+}
+
+.invite-participants-page .panel-body {
+  min-height: 278px;
+}
+
+.invite-participants-page #btnUpload {
+  display: none;
+  float: right;
+}
+
+.invite-participants-page .participant_row {
+  margin-bottom: 0;
+}
+
+.invite-participants-page .participant_row .input-field {
+  margin-top: 0;
+}
+
+.invite-participants-page .input-field {
+  margin-bottom: 0;
+}
+
+.invite-participants-page .delete-participant-row {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.invite-participants-page .participants_rows_container {
+  padding-top: 15px;
+}
+
+.class-additional-info-page .additional-actions-row {
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-additional-info-page .class-status-row {
+  text-align: center;
+}
+
+.class-additional-info-page .class-status-row .class-title {
+  font-weight: bold;
+}
+
+#add_existing_quiz_modal .modal-content {
+  background-color: white;
+}
+
+#add_existing_quiz_modal .sticky-modal-footer {
+  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  padding: 20px 10px;
+  width: 105%;
+  margin-left: -21px;
+}
+
+#add_existing_quiz_modal .sticky-modal-footer .add-quizzes-btn {
+  min-width: 224px;
+  float: right;
+}
+
+#add_existing_quiz_modal div.modal-close {
+  padding: 10px 11px 0 16px;
+}
+
+#add_existing_quiz_modal button.modal-close {
+  padding: 0 16px;
+}
+
+#add_existing_quiz_modal .available-quizzes-table td {
+  padding: 1px;
+}
+
+.class-details-page .panel-label {
+  vertical-align: top;
+  margin-right: 0;
+}
+
+.class-details-page .quizzes-table,
+.class-details-page .participants-table {
+  display: inline-block;
+  width: 60%;
+}
+
+.class-details-page .quizzes-table tbody,
+.class-details-page .participants-table tbody {
+  display: block;
+}
+
+.class-details-page .quizzes-table tbody tr,
+.class-details-page .participants-table tbody tr {
+  display: block;
+}
+
+.class-details-page .quizzes-table tbody tr td,
+.class-details-page .participants-table tbody tr td {
+  width: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.class-details-page .participants-table tbody tr td.name-td {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 70%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.class-details-page .participants-table td.role-td {
+  width: 25%;
+}
+
+.class-details-page .edit-btn {
+  float: right;
+}
+
+.edit-class-page .modal-trigger {
+  cursor: pointer;
+}
+
+.edit-class-page .edit-class-btn {
+  min-width: 140px;
+}
+
+.edit-class-page .section {
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+.edit-class-page .panel-footer {
+  padding-top: 20px;
+}
+
+.edit-class-page .participant-row {
+  clear: both;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.edit-class-page .quiz-row {
+  clear: both;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.edit-class-page #invite_participants {
+  cursor: pointer;
+}
+
+.edit-class-page .modal .modal-footer {
+  text-align: unset;
+}
+
+.edit-class-page .modal-close {
+  padding: 7px 7px;
+}
+
+.edit-class-page #modal2 .btn.modal-close {
+  padding: 0 16px;
+}
+
+.create-class-page .create-class-btn {
+  min-width: 135px;
+}
+
+.copy-class-page .row {
+  margin-bottom: 0;
+}
+
+.copy-class-page .section {
+  padding-bottom: 0;
+}
+
+.copy-class-page label {
+  display: block;
+}
+
+#class-delete-confirm-modal .modal-footer .modal-close {
+  float: left;
+}
+

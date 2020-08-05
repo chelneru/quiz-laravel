@@ -1,0 +1,76 @@
+.scores-page .quick-access-panel {
+  position: relative;
+}
+
+.scores-page .quick-access-panel .quick-access-area {
+  height: 208px;
+  display: block;
+  width: 101%;
+  overflow-y: auto;
+}
+
+.scores-page .quick-access-panel .quick-access-area table tr {
+  cursor: pointer;
+}
+
+.scores-page .quick-access-panel .quick-access-area table tr.selected {
+  background-color: rgba(242, 242, 242, 0.5);
+}
+
+.scores-page .quick-access-panel .quick-access-area table td:not(:first-child):not(:last-child) {
+  width: 240px;
+}
+
+.scores-page .quick-access-panel .quick-access-area table td:first-child {
+  width: 50px;
+}
+
+.scores-page .quick-access-panel .prev-query {
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.3s linear, opacity 0.3s linear;
+}
+
+.scores-page .scores-table tbody tr .taken-on-td {
+  width: 180px;
+}
+
+.scores-page .scores-table tbody tr td.positive {
+  color: #4db6ac;
+}
+
+.scores-page .scores-table tbody tr td.negative {
+  color: #e57373;
+}
+
+.scores-page .scores-table thead th {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.scores-page .scores-table thead th .sort-group i {
+  display: none;
+}
+
+.scores-page .autocomplete-participant .highlight {
+  font-weight: bold;
+}
+
+.scores-page .dropdown-content {
+  transition: background-color 0.5s ease;
+}
+
+.scores-page .dropdown-content li > a,
+.scores-page .dropdown-content li > span {
+  color: black !important;
+}
+
+.scores-page table.highlight tbody tr[data-type=participant] td:first-child {
+  width: 153px;
+}
+
+.scores-page table.highlight tbody tr[data-type=participant] td:nth-child(2) {
+  width: 153px;
+}
+

@@ -1,0 +1,55 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: alin
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: saga
+    container_name: saga-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - saga
+
+  db:
+    image: mysql:5.7
+    container_name: saga-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: saga-project
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_PASSWORD: pass
+      MYSQL_USER: dev
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+    networks:
+      - saga
+
+  nginx:
+    image: nginx:alpine
+    container_name: saga-nginx
+    restart: unless-stopped
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - saga
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    networks:
+      - saga
+    ports:
+      - 8181:80
+networks:
+  saga:
+    driver: bridge

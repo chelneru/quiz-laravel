@@ -1,0 +1,30 @@
+.quiz-additional-messages-page .question-position-row .position-text {
+  padding-top: 10px;
+}
+
+.quiz-additional-messages-page .dropdown-content {
+  transition: background-color 0.5s ease;
+}
+
+.quiz-additional-messages-page .dropdown-content li > a,
+.quiz-additional-messages-page .dropdown-content li > span {
+  color: black !important;
+}
+
+.quiz-additional-messages-page .ql-editor {
+  height: 200px;
+}
+
+.quiz-additional-messages-page .existing-editor-content {
+  display: none;
+}
+
+.quiz-additional-messages-page .save-additional-messages-btn {
+  min-width: 140px;
+}
+
+.quiz-additional-messages-page .panel-footer {
+  padding-top: 30px;
+  text-align: right;
+}
+

@@ -1,0 +1,93 @@
+.dropdown-content {
+    li {
+        transition: background-color .3s;
+    }
+
+    li a,
+    li span {
+        color: black;
+    }
+
+}
+
+#delete-user-modal {
+
+    #delete_user_form {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .rows-container {
+        padding: 20px 0;
+
+        .class-row {
+            padding: 10px;
+        }
+    }
+
+    .modal-close {
+        padding: 0 16px;
+    }
+}
+
+.admin-users-page {
+    .users-table {
+        tr {
+            td.class-td {
+
+            }
+
+        }
+        thead th {
+            cursor:pointer;
+            font-weight: bold;
+            .sort-group i{
+                display: none;
+                &.selected {
+                    display: block;
+                }
+
+            }
+        }
+    }
+
+    .class-filter-field {
+        width: 280px !important;
+    }
+
+
+    .autocomplete-user {
+        display: inline-block;
+        .highlight {
+            font-weight: bold;
+        }
+    }
+    .pagination {
+        float: right;
+        display: inline-block;
+    }
+    .default-panel {
+        padding-bottom: 70px;
+    }
+}
+
+#reset-user-password-modal {
+    #reset_password_form {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .rows-container {
+        padding: 20px 0;
+
+        .class-row {
+            padding: 10px;
+        }
+    }
+
+    .modal-close {
+        padding: 0 16px;
+    }
+}

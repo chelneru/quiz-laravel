@@ -1,0 +1,109 @@
+.login-page {
+
+    .login-panel {
+        margin-top: 200px;
+        background-color: white;
+        box-shadow: 1px 2px 7px 0 grey;
+
+    }
+
+    .card-body {
+        .panel-row {
+            display: flex;
+            @media only screen and (max-width: 992px) {
+                display: block;
+            }
+
+            .panel-input-field {
+                @media only screen and (max-width: 992px) {
+                    width: 100%;
+                }
+            }
+        }
+
+        .panel-label {
+            flex: 2;
+            margin-right: 140px;
+
+            padding-top: 12px;
+            @media only screen and (max-width: 992px) {
+                display: block;
+                width: 100%;
+                margin-right: unset;
+                padding: unset;
+            }
+        }
+    }
+
+    .default-panel {
+        width: 60%;
+        margin: 0 auto;
+        @media only screen and (max-width: 992px) {
+            width: unset;
+            margin: 40px auto;
+        }
+    }
+
+    .panel-checkbox-field {
+        padding-left: 314px;
+    }
+
+    .panel-footer {
+        padding-top: 20px;
+
+        .panel-row {
+            display: flex;
+            justify-content: space-between;
+            @media only screen and (max-width: 992px) {
+                width: 100%;
+                margin-top: 20px;
+                justify-content: space-between;
+            }
+
+            button {
+                @media only screen and (max-width: 992px) {
+                    margin-left: unset;
+                }
+            }
+            .connect-anon {
+                @media only screen and (max-width: 992px) {
+                    display: contents;
+                }
+            }
+
+            .btn {
+                width: 100px;
+            }
+        }
+
+    }
+
+    .forgot-pass-row {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+        @media only screen and (max-width: 992px) {
+            margin-top: unset;
+        }
+
+        .btn-flat {
+            flex: 1;
+            color: #039be5;
+            margin-left: -15px;
+        }
+
+        .form-check {
+            flex: 1;
+            padding-top: 5px;
+            text-align: right;
+        }
+    }
+
+    .placeholder-btn {
+        visibility: hidden;
+    }
+
+    .register-btn {
+        float: left;
+    }
+}

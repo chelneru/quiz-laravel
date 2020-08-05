@@ -1,0 +1,27 @@
+.admin-user-view-page {
+    .row {
+        margin-bottom: 0;
+    }
+
+    .panel-info-field:not(:last-child):not(:first-child) {
+        //width: 110px;
+    }
+
+    .panel-info-field:first-child {
+        width: 230px;
+    }
+
+    .panel-label {
+        width: 120px;
+    }
+    .class-quiz-info {
+        height: 500px;
+        overflow-y: scroll;
+    }
+    div.panel-info-field.quiz-name-field {
+        width: 230px;
+    }
+    .count-info {
+        width: 110px;
+    }
+}

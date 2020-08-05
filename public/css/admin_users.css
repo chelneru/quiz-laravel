@@ -1,0 +1,79 @@
+.dropdown-content li {
+  transition: background-color 0.3s;
+}
+
+.dropdown-content li a,
+.dropdown-content li span {
+  color: black;
+}
+
+#delete-user-modal #delete_user_form {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#delete-user-modal .rows-container {
+  padding: 20px 0;
+}
+
+#delete-user-modal .rows-container .class-row {
+  padding: 10px;
+}
+
+#delete-user-modal .modal-close {
+  padding: 0 16px;
+}
+
+.admin-users-page .users-table thead th {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.admin-users-page .users-table thead th .sort-group i {
+  display: none;
+}
+
+.admin-users-page .users-table thead th .sort-group i.selected {
+  display: block;
+}
+
+.admin-users-page .class-filter-field {
+  width: 280px !important;
+}
+
+.admin-users-page .autocomplete-user {
+  display: inline-block;
+}
+
+.admin-users-page .autocomplete-user .highlight {
+  font-weight: bold;
+}
+
+.admin-users-page .pagination {
+  float: right;
+  display: inline-block;
+}
+
+.admin-users-page .default-panel {
+  padding-bottom: 70px;
+}
+
+#reset-user-password-modal #reset_password_form {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#reset-user-password-modal .rows-container {
+  padding: 20px 0;
+}
+
+#reset-user-password-modal .rows-container .class-row {
+  padding: 10px;
+}
+
+#reset-user-password-modal .modal-close {
+  padding: 0 16px;
+}
+

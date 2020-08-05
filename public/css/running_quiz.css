@@ -1,0 +1,460 @@
+.running-quiz-page .panel-body .header-row {
+  background-color: #26a69a33;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 10px 20px;
+}
+
+.running-quiz-page .panel-body .header-row .main-question-image img {
+  max-width: 100%;
+}
+
+.running-quiz-page .index-row {
+  margin-bottom: 0;
+}
+
+.running-quiz-page .panel-body-left {
+  width: 682px;
+  padding-right: 5px;
+  border-right: 1px solid #e0e0e0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.running-quiz-page .panel-body-left.full {
+  width: 100%;
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .running-quiz-page .panel-body-left {
+    display: block;
+    width: unset;
+  }
+}
+
+.running-quiz-page .panel-body-right {
+  display: inline-flex;
+  flex-direction: column;
+  max-height: 60vh;
+}
+
+@media (max-width: 768px) {
+  .running-quiz-page .panel-body-right {
+    float: unset;
+    display: flex;
+    width: unset;
+  }
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.panel-footer {
+  padding-top: 0;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .panel-footer {
+    margin-top: 10px;
+  }
+}
+
+.default-panel {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 601px) {
+  .justification-panel.col {
+    margin-left: 20px;
+  }
+}
+
+.acc_questions_responses {
+  display: inline-block;
+  float: right;
+}
+
+.acc_questions_responses div {
+  display: inline-block;
+  float: right;
+  width: 80px;
+  text-align: right;
+}
+
+.row .question-title {
+  display: block;
+}
+
+.row .question-index {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  font-size: 19px;
+}
+
+.row .main-question-title {
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.row .responses.main-question {
+  float: right;
+  display: inline-block;
+}
+
+.row .responses.main-question div {
+  width: 80px;
+  display: inline-block;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .row .responses.main-question div {
+    width: 55px;
+  }
+}
+
+.just-question-answers {
+  overflow: auto;
+}
+
+.just-question-answers .just-answer-row {
+  border-bottom: 1px black solid;
+}
+
+.justification-section {
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.justification-section .question-name {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.justification-section .just-question-choices {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .justification-section .just-question-choices {
+    width: 100%;
+  }
+}
+
+.justification-section .just-question-choices .answer-justification {
+  width: 600px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .justification-section .just-question-choices .answer-justification {
+    max-width: 100%;
+  }
+}
+
+.justification-section .justif-answers-row {
+  margin-bottom: 20px;
+}
+
+.justification-section .justif-answers-row .answer-letter {
+  padding: 0 10px;
+  border-right: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.justification-section .justif-answers-row .answer-letter.selected {
+  border: 1px solid #2bbbad;
+}
+
+.justification-section.just-init-phase {
+  overflow: hidden;
+}
+
+.justification-section.just-rev-phase {
+  flex: 1;
+}
+
+.headers-row {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 768px) {
+  .headers-row {
+    width: 300px;
+  }
+}
+
+.headers-row > .answers-header {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .headers-row .responses div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.responses-headers {
+  display: inline-block;
+}
+
+.responses-headers div {
+  display: inline-block;
+  min-width: 61px;
+  text-align: right;
+}
+
+.responses-headers .answers-header {
+  display: inline-block;
+}
+
+.question-choices {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .question-choices {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.question-choices .choice-div {
+  padding: 5px 0;
+}
+
+.question-choices .choice-div label {
+  display: inline-block;
+}
+
+.question-choices .choice-div label span {
+  color: black;
+}
+
+.question-choices .choice-div {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .question-choices .choice-div .responses div {
+    width: 55px;
+  }
+}
+
+.explanations-section {
+  margin-top: 40px;
+}
+
+.explanations-section .question-explanation .title {
+  font-weight: bold;
+}
+
+.revision-metrics-section {
+  overflow-x: auto;
+  display: inline-block;
+  margin-left: -10px;
+  float: right;
+  max-width: 259px;
+}
+
+.revision-metrics-section .choice-div div {
+  text-align: right;
+  height: 36px;
+  margin-left: -4px;
+  display: inline-block;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.revision-metrics-section .choice-div div:first-child {
+  margin-left: 4px;
+}
+
+.revision-metrics-section .responses-headers {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.revision-metrics-section > .responses {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  float: unset;
+}
+
+@media (max-width: 768px) {
+  .revision-metrics-section {
+    max-width: 80px;
+  }
+}
+
+.conf-quiz-section {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .conf-quiz-section {
+    margin-top: 20px;
+  }
+}
+
+.conf-quiz-section .question-name {
+  font-weight: bold;
+}
+
+.conf-quiz-section .question-title {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .conf-quiz-section .conf-question-choices {
+    display: flex;
+  }
+}
+
+.conf-quiz-section .conf-question-choices .choice-div {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .conf-quiz-section .conf-question-choices .choice-div {
+    flex: 1;
+  }
+}
+
+.conf-quiz-section .conf-question-choices .choice-div label {
+  margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+  .conf-quiz-section .conf-question-choices .choice-div label {
+    margin-right: unset;
+  }
+}
+
+.conf-quiz-section .conf-question-choices .choice-div label span {
+  color: black;
+  padding-left: 27px;
+}
+
+.other-question-responses-section {
+  margin-bottom: 20px;
+  max-width: 400px;
+  flex: 1;
+  overflow: auto;
+}
+
+.other-question-responses-section .other-question-header {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.other-question-responses-section .other-questions-answers-row {
+  margin-bottom: 20px;
+}
+
+.other-question-responses-section .other-questions-answers-row .answer-letter {
+  padding: 0 10px;
+  border-right: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.other-question-responses-section .other-questions-answers-row .answer-letter.selected {
+  border: 1px solid #2bbbad;
+}
+
+.other-question-responses-section .other-questions-answers {
+  overflow: auto;
+}
+
+.other-question-responses-section .other-questions-answers .other-questions-answer-row {
+  border-bottom: 1px black solid;
+}
+
+.other-question-section {
+  margin-bottom: 5px;
+}
+
+.other-question-section .question-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.other-question-section .question-title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.other-question-section .answer-other-question {
+  max-width: 100%;
+  width: 600px;
+}
+
+@media (max-width: 768px) {
+  .other-question-section .answer-other-question {
+    max-width: 100%;
+  }
+}
+
+.other-question-section .other-question-choices .input-counter-div {
+  max-width: 100%;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .other-question-section .other-question-choices {
+    display: flex;
+  }
+}
+
+.other-question-section .other-question-choices .choice-div {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .other-question-section .other-question-choices .choice-div {
+    flex: 1;
+  }
+}
+
+.other-question-section .other-question-choices .choice-div label {
+  margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+  .other-question-section .other-question-choices .choice-div label {
+    margin-right: unset;
+  }
+}
+
+.other-question-section .other-question-choices .choice-div label span {
+  color: black;
+  padding-left: 27px;
+}
+
+.other-question-section .other-question-header {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.submit-answer {
+  width: 145px;
+}
+
+.acc-question-panel .choice-row {
+  display: inline-block;
+  margin-right: 30px;
+}
+
